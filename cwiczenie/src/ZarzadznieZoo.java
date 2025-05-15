@@ -2,7 +2,7 @@ public class ZarzadznieZoo {
     public static void main(String[] args) {
         Ptak ptak1 = new Ptak("orzel", 10, true);
         Gad gad1 = new Gad("lew", 2, true);
-        Ssak ssak1 = new Ssak("krokodyl", 3, true);
+        Ssak ssak1 = new Ssak("krokodyel", 3, true);
 
         ssak1.wyswietlInformacje();
         System.out.println(ssak1.wydajDzwiek());
